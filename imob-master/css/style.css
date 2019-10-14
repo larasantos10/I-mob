@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+nav {
+    width: 100%;
+    background-color: #5199FF;
+    text-align: center;
+    height: 70px;
+}
+
+#imob {
+    color: #f1f1f1;
+    font-family: 'Titillium Web', sans-serif;
+    letter-spacing: 2px;
+}
+
+nav ul {
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    color: #f1f1f1;
+    letter-spacing: 2px;
+    padding: 18px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #F5E027;
+    border-bottom: 1px solid #F5E027;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: #5199FF;
+    border-radius: 0 0 8px 8px;
+    text-align: left;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul li a:hover {
+    color: #F5E027;
+    border-bottom: 1px solid #F5E027;
+}
+
+#logo {
+  
+    width: 40px;
+    float: left;
+    margin: 10px;
+}
+
+.banner {
+    width: 100%;
+}
+
+.banner img {
+    width: 100%;
+}
+
+/* Categorias */
+
+section.categorias {
+    margin-top: 60px;
+    text-align: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+}
+
+article p{
+    text-align: justify-all;
+    text-align: left;
+    font-size: 16px;
+    color: #222222;
+    margin: 20px;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+
+article h2{
+        margin-top: -50px;
+        font-size: 28px;
+        text-align: left;
+        margin-left: 20px;
+    }
+
+.cat-title {
+    margin-top: 20px;
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+}
+
+#cat-title-text {
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 30px;
+}
+
+article.card-cat {
+    float: left;
+    width: 30.333%;
+    height: 350px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.5);
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+article.card-cat:hover {
+    
+    border: 1px solid #F5E027;
+    transform: scale(1.01);
+    border: none;
+}
+
+section.categorias .card-cat img {
+    width: 100%;
+}
+
+.card-cat p {
+    font-size: 18px;
+    margin-top: 10px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/* Vantagens */
+
+#vantagens {
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+}
+
+section.cards {
+    text-align: center;
+   
+}
+
+.cards h4 {
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    margin: 90px 0 60px 0;
+}
+
+.cards img {
+    width: 60px;
+    margin: 10px;
+}
+
+.cards article {
+    float: left;
+    text-align: center;
+    width: 30.333%;
+    padding: 10px;
+    margin: 10px;
+    height: 260px;
+    box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.5);
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    margin-bottom: 80px;
+}
+
+.cards article:hover {
+    transform: scale(1.01);
+    
+}
+
+.cards article p {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+}
+
+footer {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+}
+
+footer p{
+    font-size: 16px;
+    color: #222222;
+    margin-top: 20px;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+
+footer h3 {
+    font-size: 20px;
+    color: #222222;
+    margin-top: 20px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
+
+footer input {
+    text-align: center;
+    border: 2px solid #F5E027;
+    width: 40%;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+footer button {
+    height: 40px;
+    width: 10%;
+    border-radius: 10px;
+    color: #222222;
+    background-color: #F5E027;
+    font-family: 'Titillium Web', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 600;
+    outline-style: none;
+    border:none!important;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+footer button:hover {
+    background-color: #222222;
+    color: #F5E027;
+}
+
+footer p {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+article h1{
+        margin-top: 70px;
+        font-size: 28px;
+        text-align: center;
+        margin: 20px;
+    }
+
+section.contato{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin: center;
+}
+
+article.dados{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin: 0px;
+}
+
+article.sobre{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin: 80px;
+
+}
+
+/* Mobile */
+@media only screen and (max-width: 600px) {
+
+    nav {
+        height: auto;
+    }
+
+    nav ul {
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        border-bottom: 1px solid #F5E027;
+    }
+
+    nav ul li a {
+        font-size: 18px;
+        font-weight: 200;
+    }
+
+    nav ul li:hover ul {
+        display: block;
+        z-index: 999;
+    }
+
+    #logo {
+        display: none;
+    }
+
+    /* Categorias */
+
+    article.card-cat {
+        width: 93%;
+        height: 100%;
+        margin-bottom: 40px;
+    }
+
+    /* Vantagens */
+
+    .cards article {
+        width: 93%;
+        margin-bottom: 20px;
+    }
+
+    footer h2 {
+        font-size: 16px;
+    }
+
+    footer input {
+        width: 80%;
+        margin-bottom: 10px;
+        height: 30px;
+        font-size: 16px;
+    }
+
+    footer button {
+        height: 40px;
+        width: 40%;
+    }
+
+    footer p {
+        font-size: 12px;
+        margin: 10px;
+    }
+
+  }
+
+/* Desktop */
+
+@media only screen and (min-width: 768px) {
+
+    /* Categorias */
+
+    article.card-cat {
+        width: 31.2%;
+        margin: 2px;
+        height: 310px;
+        margin-bottom: 40px;
+    }
+    
+
+    /* Vantagens */
+
+    .cards article {
+        width: 31.2%;
+        height: 300px;
+        margin: 2px;
+        margin-bottom: 20px;
+    }
+
+
+}
